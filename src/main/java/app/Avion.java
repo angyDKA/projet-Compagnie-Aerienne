@@ -4,12 +4,14 @@ public class Avion {
     private String immatriculation;
     private String modele;
     private int capacite;
+    private boolean disponible;
+
     public Avion(String immatriculation, String modele, int capacite){
         this.immatriculation= immatriculation;
         this.modele= modele;
         this.capacite= capacite;
+        this.disponible= true;
     }
-
     public String getImmatriculation() {
         return immatriculation;
     }
@@ -29,9 +31,16 @@ public class Avion {
         this.capacite = capacite;
     }
     public void affecterVol(){
+        if(this.disponible){
+            this.disponible= false;
+            System.out.println("L'avion "+ immatriculation+" a été affecté à un vol.");
+            }
+        else{
+            System.out.println("L'avion " + immatriculation + "n'est pas disponible.");
+            }
 
     }
-    public void verifierDispoAvion(){
-
+    public boolean verifierDisponibilite(){
+        return this.disponible;
     }
 }
