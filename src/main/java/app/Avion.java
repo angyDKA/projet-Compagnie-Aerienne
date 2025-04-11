@@ -40,6 +40,10 @@ public class Avion {
             }
 
     }
+    public void libererAvion(){
+        this.disponible= true;
+        System.out.println("L'avion "+immatriculation + " est maintenant disponible. ");
+    }
     public boolean verifierDisponibilite(){
         return this.disponible;
     }
