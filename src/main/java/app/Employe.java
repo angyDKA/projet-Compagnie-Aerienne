@@ -27,7 +27,7 @@ public class Employe extends Personne{
     }
 
     public String obtenirRole(){
-        return "Employé générique";
+        return "Employé";
     }
 
     @Override
