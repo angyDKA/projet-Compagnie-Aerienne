@@ -14,10 +14,9 @@ Ce projet consiste à développer une application Java permettant la gestion com
 
 ## Fonctionnalités
 - Gestion des **personnes** (passagers, employés, pilotes, personnel cabine)
-- Gestion des **vols** (planification, annulation, affectation)
+- Gestion des **vols** (planification, annulation, modification)
 - Gestion des **réservations**
 - Gestion des **avions** et **aéroports**
-- Fonctions avancées (bonus) : statistiques, destinations populaires
 
 ## Objectifs pédagogiques
 - Appliquer la programmation orientée objet (POO) : héritage, encapsulation, association
