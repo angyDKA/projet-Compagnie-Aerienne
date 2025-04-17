@@ -25,7 +25,6 @@ Ce projet consiste à développer une application Java permettant la gestion com
 - `src/test/java/` : tests éventuels
 - `README.md` : présentation du projet
 
-## 👥 Collaborateurs
+## 👥 Collaborateur
 
-- [@angyDKA](https://github.com/angyDKA)
-- [@rem911](https://github.com/NomDuCollaborateur)
+- [@rem911](https://github.com/rem911)
