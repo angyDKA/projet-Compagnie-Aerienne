@@ -12,6 +12,13 @@ public class Vol {
     private String etat; // Exemple : "Planifié", "Annulé", "En cours"
     private List<Personne> passagers;
 
+    // 🔹 Constructeur vide pour les tests (ex. dans Main.java)
+    public Vol() {
+        this.passagers = new ArrayList<>();
+        this.etat = "Planifié";
+    }
+
+    // 🔹 Constructeur principal
     public Vol(String numeroVol, String origine, String destination, String dateHeureDepart, String dateHeureArrivee) {
         this.numeroVol = numeroVol;
         this.origine = origine;
@@ -22,6 +29,7 @@ public class Vol {
         this.passagers = new ArrayList<>();
     }
 
+    // 🔹 Getters et setters
     public String getNumeroVol() {
         return numeroVol;
     }
@@ -70,6 +78,7 @@ public class Vol {
         this.etat = etat;
     }
 
+    // 🔹 Méthodes métier
     public void planifierVol() {
         this.etat = "Planifié";
         System.out.println("Le vol " + numeroVol + " a été planifié.");
