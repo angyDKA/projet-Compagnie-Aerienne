@@ -25,10 +25,7 @@ Ce projet consiste à développer une application Java permettant la gestion com
 - Travailler en binôme avec GitHub
 
 ## Organisation du projet
-- `src/main/java/` : classes Java du projet
-- `src/test/java/` : tests éventuels
+- `src/main/java/app` : classes Java du projet
+- `src/main/java/org/example/Main` : tests 
 - `README.md` : présentation du projet
 
-##  Collaborateur
-
-- SIMO MENDJE IVAN REMY [@rem911](https://github.com/rem911)
