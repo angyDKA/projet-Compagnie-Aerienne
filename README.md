@@ -1,6 +1,10 @@
-# ✈️ Système de Réservation - Compagnie Aérienne (Projet Java)
+#  Système de Réservation - Compagnie Aérienne (Projet Java)
 
 Ce projet consiste à développer une application Java permettant la gestion complète d'une compagnie aérienne. Il a été réalisé dans le cadre du module **Algorithmique et Programmation JAVA**.
+
+##  Collaborateur
+- SIMO MENDJE IVAN REMY [@rem911](https://github.com/rem911)
+
 
 ## Technologies utilisées
 - Java (POO)
@@ -25,6 +29,6 @@ Ce projet consiste à développer une application Java permettant la gestion com
 - `src/test/java/` : tests éventuels
 - `README.md` : présentation du projet
 
-## 👥 Collaborateur
+##  Collaborateur
 
-- [@rem911](https://github.com/rem911)
+- SIMO MENDJE IVAN REMY [@rem911](https://github.com/rem911)
