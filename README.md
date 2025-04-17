@@ -28,4 +28,4 @@ Ce projet consiste à développer une application Java permettant la gestion com
 ## 👥 Collaborateurs
 
 - [@angyDKA](https://github.com/angyDKA)
-- [@NomDuCollaborateur](https://github.com/NomDuCollaborateur)
+- [@rem911](https://github.com/NomDuCollaborateur)
